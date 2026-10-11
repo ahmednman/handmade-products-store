@@ -1,0 +1,445 @@
+
+<!-- designed by ahmed noman zaki aljabary -->
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع المنتجات اليدوية</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1><span>prand</span> store</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">main</a></li>
+            <li><a href="#products">Offers</a></li>
+            <li><a href="#new-products">new products</a></li>
+            <li><a href="#testimonials">Recommendations</a></li>
+            <li><a href="#blog">ploge</a></li>
+            <li><a href="#faq">qustion</a></li>
+            <li><a href="#contact">call us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Welcome to our store</h2>
+    <p>Discover the most beautiful handmade products made with love and creativity</p>
+</section>
+
+<section id="products">
+    <h2>Offers</h2>
+
+    <div class="product">
+        <img src="1.jpeg" alt="صورة 1">
+        <h3>سلة يدوية</h3>
+        <p class="par">سلال يدوية صنعت بحب وشغف</p>
+        <p class="price">$70</p>
+        <button onclick="addToCart('سلة يدوية', 70)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="2.jpeg" alt="صورة 2">
+        <h3>حقيبة يد</h3>
+        <p class="par">لدينا تشكيلة واسعة من افخم العطور</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('حقيبة يد', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="3.jpeg" alt="صورة 3">
+        <h3>سلة يدوية</h3>
+        <p class="par">ماركات عالمية من الشامبو</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('سلة يدوية', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="4.jpeg" alt="صورة 4">
+        <h3>دمى يدوية</h3>
+        <p class="par">عطر العود الماركة الشهيرة</p>
+        <p class="price">$120</p>
+        <button onclick="addToCart('دمى يدوية', 120)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="5.jpeg" alt="صورة 5">
+        <h3>احذية يدوية</h3>
+        <p class="par">كريم للبشرة الحساسة</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('احذية يدوية', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="6.jpeg" alt="صورة 6">
+        <h3>سجادة يدوية</h3>
+        <p class="par">a putiful prand dress</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('سجادة يدوية', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="7.jpeg" alt="صورة 7">
+        <h3>شال يدوي</h3>
+        <p class="par">long T-shirt from addidas</p>
+        <p class="price">$150</p>
+        <button onclick="addToCart('شال يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="8.jpeg" alt="صورة 8">
+        <h3>ميدالية صنع يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('ميدالية يدوية', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="9.jpeg" alt="صورة 9">
+        <h3>ميدالية صنع يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('ميدالية يدوية', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="10.jpeg" alt="صورة 10">
+        <h3>زي تخرج</h3>
+        <p class="par">ماركات عالمية من الشامبو</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('زي تخرج', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="11.jpeg" alt="صورة 11">
+        <h3>تشكيلة من المصنوعات اليدوية</h3>
+        <p class="par">ماركات عالمية من الشامبو</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('shampoo', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="12.jpeg" alt="صورة 12">
+        <h3>حقيبة يدوية</h3>
+        <p class="par">ماركات عالمية من الشامبو</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('حقيبة يدوية', 20)">أضف إلى السلة</button>
+    </div>
+</section>
+
+<hr>
+
+<section id="new-products">
+    <h2>new products</h2>
+
+    <div class="product">
+        <img src="13.jpeg" alt="صورة 13">
+        <h3>تذكاريات يدوية</h3>
+        <p class="par">لدينا تشكيلة واسعة من افخم العطور</p>
+        <p class="price">$70</p>
+        <button onclick="addToCart('تذكاريات يدوية', 70)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="14.jpeg" alt="صورة 14">
+        <h3>خزفيات ومطرزات</h3>
+        <p class="par">ماركات عالمية من الشامبو</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('خزفيات ومطرزات', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="15.jpeg" alt="صورة 15">
+        <h3>بسط ووسائد منزلية</h3>
+        <p class="par">عطر العود الماركة الشهيرة</p>
+        <p class="price">$120</p>
+        <button onclick="addToCart('بسط ووسائد منزلية', 120)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="16.jpeg" alt="صورة 16">
+        <h3>محفظة تطريز يدوي</h3>
+        <p class="par">كريم للبشرة الحساسة</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('محفظة تطريز يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="17.jpeg" alt="صورة 17">
+        <h3>حقيبة تطريز يدوي</h3>
+        <p class="par">a putiful prand dress</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('حقيبة تطريز يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="18.jpeg" alt="صورة 18">
+        <h3>توزيعات هدايا</h3>
+        <p class="par">long T-shirt from addidas</p>
+        <p class="price">$150</p>
+        <button onclick="addToCart('هدايا', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="19.jpeg" alt="صورة 19">
+        <h3>سجاد صنع يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('سجاد يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="20.jpeg" alt="صورة 20">
+        <h3>محفظة تطريز يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('محفظة يدوية', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="21.jpeg" alt="صورة 21">
+        <h3>اكسسوارات يدوية</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('اكسسوارات يدوية', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="22.jpeg" alt="صورة 22">
+        <h3>محفظة الكوفية</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('محفظة الكوفية', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="23.jpeg" alt="صورة 23">
+        <h3>اثاث و نحت خشبي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('اثاث و نحت خشبي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="24.jpeg" alt="صورة 24">
+        <h3>مفرش تطريز فلاحي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('مفرش تطريز فلاحي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="25.jpeg" alt="صورة 25">
+        <h3>سوار يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('سوار يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="26.jpg" alt="صورة 26">
+        <h3>سوار يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('سوار يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="27.jpg" alt="صورة 27">
+        <h3>سوار يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('سوار يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="28.jpg" alt="صورة 28">
+        <h3>سوار يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('سوار يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="29.jpg" alt="صورة 29">
+        <h3>سوار يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('سوار يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="30.jpg" alt="صورة 30">
+        <h3>سوار يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('سوار يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="31.jpg" alt="صورة 31">
+        <h3>سوار يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('سوار يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="32.jpg" alt="صورة 32">
+        <h3>سوار يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('سوار يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="33.jpg" alt="صورة 33">
+        <h3>سوار يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('سوار يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="34.jpg" alt="صورة 34">
+        <h3>سوار يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('سوار يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="35.jpg" alt="صورة 35">
+        <h3>سوار يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('سوار يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="36.jpg" alt="صورة 36">
+        <h3>سوار يدوي</h3>
+        <p class="par">سوار مصنوع من الخرز الملون.</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('سوار يدوي', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="37.jpg" alt="صورة 37">
+        <h3>shampoo</h3>
+        <p class="par">ماركات عالمية من الشامبو</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('shampoo', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="38.jpg" alt="صورة 38">
+        <h3>shampoo</h3>
+        <p class="par">ماركات عالمية من الشامبو</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('shampoo', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="39.jpg" alt="صورة 39">
+        <h3>shampoo</h3>
+        <p class="par">ماركات عالمية من الشامبو</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('shampoo', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="40.jpg" alt="صورة 40">
+        <h3>shampoo</h3>
+        <p class="par">ماركات عالمية من الشامبو</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('shampoo', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="41.jpg" alt="صورة 41">
+        <h3>shampoo</h3>
+        <p class="par">ماركات عالمية من الشامبو</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('shampoo', 20)">أضف إلى السلة</button>
+    </div>
+
+    <div class="product">
+        <img src="42.jpg" alt="صورة 42">
+        <h3>shampoo</h3>
+        <p class="par">ماركات عالمية من الشامبو</p>
+        <p class="price">$20</p>
+        <button onclick="addToCart('shampoo', 20)">أضف إلى السلة</button>
+    </div>
+</section>
+
+<hr>
+
+<section id="blog">
+    <h2>our blog</h2>
+    <article>
+        <summary style="font-size: 35px" id="testimonials">
+            How to choose the perfect handmade product
+        </summary>
+
+        <p style="font-size: 25px;">Determine the purpose of the purchase</p>
+        <h4>Are you looking for a decorative piece, a unique gift, or practical everyday use? Defining the purpose will help narrow down the options and select the right type.</h4>
+
+        <p style="font-size: 35px;">Precision workmanship</p>
+        <h4>Inspect product details, such as stitching or connections, to ensure there are no defects or errors.</h4>
+
+        <p style="font-size: 35px;">Design and creativity</p>
+        <h4>Choose a product that reflects your personal taste or matches where you will put it. Look for products that feature unique touches that reflect the skill of the craftsman.</h4>
+
+        <p style="font-size: 35px;">Identify the source of the product</p>
+        <h4>Products that carry a story or cultural heritage add special value. Supporting local artisans or small businesses can have a positive social impact.</h4>
+
+        <p style="font-size: 35px;">Check price</p>
+        <h4>Compare prices with similar products, keeping in mind that handmade products are usually more expensive due to the effort and time involved. Make sure the price reflects the quality and value of the craftsmanship.</h4>
+
+        <p style="font-size: 35px;">Read reviews or recommendations</p>
+        <h4>If the product is from an online store, see reviews from previous buyers. Recommendations from friends or acquaintances may help you make a better decision.</h4>
+
+        <p style="font-size: 35px;">Attention to final details</p>
+        <h4>Check the packaging and delivery method, especially if you intend to give it as a gift. Make sure there is a clear warranty or return policy.</h4>
+
+        <p style="font-size: 35px;">Considering sustainability</p>
+        <h4>Choose products made from environmentally friendly or recyclable materials. Supporting sustainable products contributes to protecting the environment.</h4>
+    </article>
+</section>
+
+<section id="faq">
+    <h2>common questions</h2>
+
+    <details>
+        <summary>Are the products completely handmade?</summary>
+        <p>Yes, all products are carefully handcrafted.</p>
+    </details>
+
+    <details>
+        <summary>How can I track my order?</summary>
+        <p>We will send you an email with shipping details.</p>
+    </details>
+</section>
+
+<section id="contact">
+    <h2>call us</h2>
+    <form>
+        <input type="text" placeholder="full name" required>
+        <input type="email" placeholder="email" required>
+        <textarea placeholder="your message" required></textarea>
+        <br><br>
+        <button type="submit">send</button>
+    </form>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2025 متجر المنتجات اليدوية. all rights reserved.</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+/* designed by ahmed noman zaki aljabary */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    direction:rtl;
+    background-color: #80a3e8;
+    color: #333;
+
+}
+header {
+    background-color: #243270;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+header h1{ 
+    margin: 10px;
+    float: left;
+    color: #d11a0a;
+}
+header span{
+    color: rgb(71, 147, 180);
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li  a:hover{
+    color: #cde01d;
+}
+section {
+    padding: 15px;
+    text-align: center;
+}
+.product {
+    display:inline-block ;
+    width: 300px;
+    margin:15px;
+    background-color: rgb(224, 203, 254);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 0 2px rgb(22, 184, 184);
+}
+
+.product img {
+    width: 60%;
+    height: 150px;
+    display: inline-block;
+    object-fit:contain;
+}
+  .product button {
+    background-color: #23b2ab;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+#home h2{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+#home p{
+        font-size: 20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+}
+    #products  h2{
+           font-size: 30px;
+          font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #products .product h3{
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #products .product  .par{
+        color: #de7e17;
+    }
+    /* if i need to change the color in h3 ilement in  divelement   */
+    #products .product  .exp{
+        color: #78d33f;
+    }
+   #new-products  .product{
+    padding: 30px;
+    margin: 20px;
+   }
+   #new-products  h2{
+    padding: 0;
+    margin: 0px;
+   }
+hr{
+    border: 3px solid rgb(89, 135, 200);
+}
+
+.footer {
+    color: white; 
+    text-align: center; 
+    padding: 0; 
+    margin: 0;
+   
+} 
+    footer p{
+       color: black;
+    }
+  
+
+     
